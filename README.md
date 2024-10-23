@@ -1,16 +1,24 @@
-# SnakeGame
+# Snake Game
 
-Technologies Used: Core Java (Swing, AWT, Graphics, Exceptional Handling, OOPS, Abstract classes, Interfaces)
+A simple implementation of the classic Snake game using Java with Swing for the GUI. The player controls a snake that grows in length as it eats apples while avoiding collisions with itself and the game borders.
 
+## Features
 
-To run the project from the command line, go to the dist folder and
-type the following:
+- Classic Snake gameplay with increasing difficulty.
+- Colorful graphics and a user-friendly interface.
+- Scoring system that tracks the number of apples eaten.
+- Responsive controls for smooth gameplay.
 
-java -jar "SnakeGame.jar" 
+### Running the Project
 
-Another way to run the project from the command line, go to the src folder and 
-type the following:
-
-javac SnakeGame.java
-
+1. Navigate to the src folder and compile the Java files:
+```bash
+cd src
+javac SnakeGame.java GameFrame.java GamePanel.java
+```
+2. Run the game:
+```bash
 java SnakeGame
+```
+
+   
